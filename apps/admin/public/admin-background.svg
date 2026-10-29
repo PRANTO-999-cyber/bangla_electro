@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200" fill="none">
+  <defs>
+    <linearGradient id="base" x1="80" y1="30" x2="1700" y2="1180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF3FA"/>
+      <stop offset=".52" stop-color="#F5F7FB"/>
+      <stop offset="1" stop-color="#E8EEF8"/>
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientTransform="matrix(700 420 -460 770 1470 250)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#80A7EC" stop-opacity=".43"/>
+      <stop offset=".55" stop-color="#9AB5E8" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#AFC4E8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tealGlow" cx="0" cy="0" r="1" gradientTransform="matrix(650 390 -480 800 170 1040)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#72C9C4" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#72C9C4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ribbon" x1="440" y1="80" x2="1540" y2="970" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7194D1" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#8AA8D8" stop-opacity=".035"/>
+    </linearGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#6886B8" fill-opacity=".15"/>
+    </pattern>
+  </defs>
+  <path fill="url(#base)" d="M0 0h1800v1200H0z"/>
+  <path fill="url(#blueGlow)" d="M0 0h1800v1200H0z"/>
+  <path fill="url(#tealGlow)" d="M0 0h1800v1200H0z"/>
+  <path fill="url(#dots)" d="M0 0h1800v1200H0z"/>
+  <path d="M1110-180c405 125 650 370 760 690 66 192 55 405 11 602" stroke="url(#ribbon)" stroke-width="120"/>
+  <path d="M1190-210c366 129 572 344 670 624 67 191 61 396 24 608" stroke="#fff" stroke-opacity=".48" stroke-width="2"/>
+  <path d="M1040-160c444 132 735 405 854 758" stroke="#7594C8" stroke-opacity=".12" stroke-width="2"/>
+  <circle cx="1470" cy="300" r="245" stroke="#6386C0" stroke-opacity=".11" stroke-width="1.5"/>
+  <circle cx="1470" cy="300" r="190" stroke="#6386C0" stroke-opacity=".09" stroke-width="1.5"/>
+  <circle cx="1470" cy="300" r="135" stroke="#6386C0" stroke-opacity=".08" stroke-width="1.5"/>
+  <circle cx="1470" cy="300" r="5" fill="#6B8FCB" fill-opacity=".3"/>
+</svg>

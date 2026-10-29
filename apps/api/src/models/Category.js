@@ -1,0 +1,1 @@
+import mongoose from 'mongoose'; const s=new mongoose.Schema({name:{type:String,required:true},slug:{type:String,unique:true},parent:{type:mongoose.Schema.Types.ObjectId,ref:'Category'},image:String,description:String,isActive:{type:Boolean,default:true}},{timestamps:true}); export default mongoose.model('Category',s);

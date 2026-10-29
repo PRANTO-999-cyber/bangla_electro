@@ -1,0 +1,12 @@
+{
+  "name": "electronics-ecommerce-platform",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @shop/api --filter @shop/storefront --filter @shop/admin dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": { "prettier": "^3.5.3" }
+}

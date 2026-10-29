@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="metal" x1="330" y1="80" x2="900" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C8D7FF"/>
+      <stop offset=".48" stop-color="#7D9BEE"/>
+      <stop offset="1" stop-color="#56D8D0"/>
+    </linearGradient>
+    <linearGradient id="bud" x1="775" y1="395" x2="1020" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8E4FF"/>
+      <stop offset=".55" stop-color="#93AAF1"/>
+      <stop offset="1" stop-color="#61D8D0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 365 -420 0 800 410)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A8C4FF" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#A8C4FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="800" cy="440" rx="410" ry="370" fill="url(#glow)"/>
+  <g opacity=".64" stroke="url(#metal)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M409 510V374c0-170 111-286 267-286s267 116 267 286v136" stroke-width="34"/>
+    <path d="M409 359c0-149 105-248 267-248s267 99 267 248" stroke="#E2EBFF" stroke-opacity=".64" stroke-width="8"/>
+    <rect x="365" y="468" width="105" height="223" rx="48" fill="#273966" fill-opacity=".34" stroke-width="19"/>
+    <rect x="882" y="468" width="105" height="223" rx="48" fill="#273966" fill-opacity=".34" stroke-width="19"/>
+    <path d="M390 518v119m565-119v119" stroke="#DCE8FF" stroke-opacity=".6" stroke-width="8"/>
+  </g>
+  <g opacity=".58" stroke="url(#bud)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M692 540c0-56 38-96 92-96s92 40 92 96c0 37-16 65-44 84v78c0 30-21 53-49 53s-49-23-49-53v-78c-27-19-42-47-42-84Z" fill="#263967" fill-opacity=".34" stroke-width="18"/>
+    <path d="M735 534c0-30 20-52 49-52s49 22 49 52c0 22-12 39-31 48v103m-36-103v-30" stroke="#E5EEFF" stroke-opacity=".68" stroke-width="8"/>
+    <path d="M916 580c0-48 33-83 79-83s79 35 79 83c0 32-14 56-38 72v68c0 26-18 46-42 46s-42-20-42-46v-68c-23-16-36-40-36-72Z" fill="#263967" fill-opacity=".26" stroke-width="16"/>
+    <path d="M952 575c0-26 17-45 43-45s43 19 43 45c0 18-10 33-27 42v89m-32-89v-25" stroke="#E5EEFF" stroke-opacity=".62" stroke-width="7"/>
+  </g>
+  <g opacity=".5" stroke="#8CE5E1" stroke-linecap="round" stroke-linejoin="round" stroke-width="11">
+    <path d="m548 748 82 83 82-83m-82-186v269"/>
+    <path d="m1036 224 60 60-60 60m0-120v120m0-60h-62"/>
+  </g>
+  <g opacity=".42" fill="#B8CCFF">
+    <circle cx="295" cy="292" r="7"/>
+    <circle cx="1025" cy="386" r="6"/>
+    <circle cx="613" cy="764" r="6"/>
+    <circle cx="1047" cy="188" r="5"/>
+    <circle cx="275" cy="666" r="5"/>
+  </g>
+  <g opacity=".24" stroke="#A9C4FF" stroke-width="2">
+    <circle cx="680" cy="438" r="340"/>
+    <circle cx="680" cy="438" r="382"/>
+    <circle cx="680" cy="438" r="424"/>
+  </g>
+</svg>

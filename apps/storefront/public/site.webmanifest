@@ -1,0 +1,13 @@
+{
+  "name": "ElectroStore — স্মার্ট টেক, স্মার্ট শপিং",
+  "short_name": "ElectroStore",
+  "description": "প্রতিদিনের প্রযুক্তি পণ্য সহজে খুঁজুন ও অর্ডার করুন।",
+  "lang": "bn-BD",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f8fb",
+  "theme_color": "#10223d",
+  "icons": [
+    { "src": "/electrostore-mark.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

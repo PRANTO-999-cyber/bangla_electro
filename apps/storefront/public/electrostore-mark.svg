@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">ElectroStore</title>
+  <desc id="desc">A modern electric bolt inside a navy shopping tile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="8" y1="5" x2="88" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18345B"/>
+      <stop offset="1" stop-color="#071426"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="33" y1="19" x2="67" y2="77" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8CF7F0"/>
+      <stop offset="1" stop-color="#39BDF8"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="15" y1="10" x2="82" y2="89" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B8F7FF" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#528DFF" stop-opacity=".2"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="88" height="88" rx="25" fill="url(#bg)"/>
+  <rect x="4.75" y="4.75" width="86.5" height="86.5" rx="24.25" stroke="url(#edge)" stroke-width="1.5"/>
+  <path d="M23 27.5C23 24.46 25.46 22 28.5 22H67" stroke="#D9F7FF" stroke-opacity=".8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M23 47.5H48" stroke="#D9F7FF" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+  <path d="M23 67.5H39" stroke="#D9F7FF" stroke-opacity=".35" stroke-width="5" stroke-linecap="round"/>
+  <path d="M55.5 17 32 53.5H47L39.5 79 67 41.5H51.5L55.5 17Z" fill="url(#bolt)" stroke="#E2FFFF" stroke-linejoin="round" stroke-width="1.6"/>
+  <circle cx="73" cy="69" r="4" fill="#70E9E0"/>
+  <circle cx="73" cy="69" r="8" stroke="#70E9E0" stroke-opacity=".24" stroke-width="2"/>
+</svg>

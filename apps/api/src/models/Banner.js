@@ -1,0 +1,1 @@
+import mongoose from 'mongoose'; const s=new mongoose.Schema({title:String,image:String,link:String,position:String,isActive:{type:Boolean,default:true},startsAt:Date,endsAt:Date},{timestamps:true}); export default mongoose.model('Banner',s);
